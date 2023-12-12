@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Cell Search</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f2f2;
+      }
+      #input-search {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px solid #999;
+        font-size: 18px;
+        color: #333;
+        outline: none;
+        background-color: transparent;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0 0 0 / 0.1);
+      }
+      th {
+        padding: 10px;
+        text-align: left;
+        background-color: #555;
+        color: #fff;
+        font-weight: bold;
+      }
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="text"
+      name=""
+      id="input-search"
+      placeholder="Enter Search Term"
+    />
+    <table>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+        <th>Header 4</th>
+        <th>Header 5</th>
+      </tr>
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+        <td>Row 1, Column 3</td>
+        <td>Row 1, Column 4</td>
+        <td>Row 1, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+        <td>Row 2, Column 3</td>
+        <td>Row 2, Column 4</td>
+        <td>Row 2, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 3, Column 1</td>
+        <td>Row 3, Column 2</td>
+        <td>Row 3, Column 3</td>
+        <td>Row 3, Column 4</td>
+        <td>Row 3, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 4, Column 1</td>
+        <td>Row 4, Column 2</td>
+        <td>Row 4, Column 3</td>
+        <td>Row 4, Column 4</td>
+        <td>Row 4, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 5, Column 1</td>
+        <td>Row 5, Column 2</td>
+        <td>Row 5, Column 3</td>
+        <td>Row 5, Column 4</td>
+        <td>Row 5, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 6, Column 1</td>
+        <td>Row 6, Column 2</td>
+        <td>Row 6, Column 3</td>
+        <td>Row 6, Column 4</td>
+        <td>Row 6, Column 5</td>
+      </tr>
+      <tr>
+        <td>Row 7, Column 1</td>
+        <td>Row 7, Column 2</td>
+        <td>Row 7, Column 3</td>
+        <td>Row 7, Column 4</td>
+        <td>Row 7, Column 5</td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
